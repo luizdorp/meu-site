@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>https://www.google</title>
+
+    <style>
+        body {
+            background-color: purple;
+        }
+
+        .painel {
+            margin: auto;
+            background-color: white;
+            width: 500px;
+            height: 500px;
+            border-radius: 20px;
+            text-align: center;
+            padding-top: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="painel">
+        <h1>Fiz esse site para te mostrar a letra da musica.Espero que goste!kkk</h1>
+        <p>
+            Desde o momento em que te conheci,
+
+            meu coração começou a bater mais forte.
+
+            Seus olhos me encantaram, sua voz me seduziu,
+
+            e eu soube que nunca mais seria o mesmo depois dali.
+
+            Então, querida, me faça crer novamente em você,
+            me faça crer novamente nesse amor... amor, amor, ouou...
+            Que esse meu tempo ausente desperdiçou... ouou...
+
+            Eu só queria te dizer como você me encantou:
+            os seus olhos me seduziram e sua boca me beijou, amor... ouou... amor...
+            Se lembra da primeira vez que a gente se encontrou, amor?
+            Você era muito nova e pequenina...
+            era uma princesinha.
+
+            Amor, só você me faz sonhar,
+            No teu abraço eu quero sempre estar.
+            Amor,eu só queria te dizer que o meu coração é o seu novo lar
+            E pra sempre eu vou te amar... ouou...
+            E quando a noite chegar, vou lembrar do teu olhar,
+            Prometo nunca mais deixar você chorar.
+            Porque o que sinto é real, maior que o temporal,
+            Meu amor é eterno, imortal... ouou...
+
+            
+
+
+        </p>
+
+
+
+        <img src="https://gifman.net/wp-content/uploads/2019/06/ursinho-fofo-apaixonado.gif" alt="">
+
+        <h2>eu deixei essa musica especialmente para esse momento!Espero que você goste.</h2>
+        <p>Vai querer ouvir?</p>
+
+
+        <a href="https://www.youtube.com/watch?v=Af7ieNv0wXY"><button id="sim"> Sim! </button></a>
+        <button onmouseover="fuja()" id="nao"> Não! </button>
+
+    </div>
+
+    <script>
+        function fuja() {
+            var botaoNao = document.getElementById("nao")
+
+            var larguraJanela = window.innerWidth;
+            var alturaJanela = window.innerHeight;
+
+            var maxX = larguraJanela - botaoNao.offsetWidth;
+            var maxY = alturaJanela - botaoNao.offsetHeight;
+
+            var aleatorioX = Math.floor(Math.random() * maxX);
+            var aleatorioY = Math.floor(Math.random() * maxY);
+
+            botaoNao.style.left = aleatorioX + "px";
+            botaoNao.style.top = aleatorioY + "px";
+
+s
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
